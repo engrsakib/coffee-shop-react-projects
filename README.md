@@ -1,8 +1,16 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=engrsakib&layout=compact&theme=react" alt="WakaTime" />
+</p>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=engrsakib&layout=compact&theme=react" alt="WakaTime" />
+</p>
+
+[![WakaTime](https://wakatime.com/badge/user/engrsakib.svg)](https://wakatime.com/@engrsakib)
+
+
+[![wakatime](https://wakatime.com/badge/user/e3d15f9e-99b8-42ef-b6ff-cba3b4151d9c.svg)](https://wakatime.com/@e3d15f9e-99b8-42ef-b6ff-cba3b4151d9c)
+
+<a href="https://wakatime.com/@e3d15f9e-99b8-42ef-b6ff-cba3b4151d9c"><img src="https://wakatime.com/badge/user/e3d15f9e-99b8-42ef-b6ff-cba3b4151d9c.svg" alt="Total time coded since Jul 28 2024" /></a>
