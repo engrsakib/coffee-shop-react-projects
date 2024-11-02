@@ -24,5 +24,9 @@ const routs = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/sakib",
+    element: <p>sakib</p>
+  }
 ]);
 export default routs;
