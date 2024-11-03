@@ -1,25 +1,47 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-      <div>
-        <div className="navbar bg-base-100">
+      <div className="bg-white">
+        <div className="navbar container z-50 backdrop-blur-xl bg-white/30">
           <div className="navbar-start">
-            <Link to='/' className="btn btn-ghost text-xl">Sakib's Coffee Shops</Link>
+            <NavLink to="/" className="btn btn-ghost text-xl">
+              Sakib's Coffee Shops
+            </NavLink>
           </div>
           <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal px-1 gap-8 text-2xl">
-              <Link to="/">
+              <NavLink
+                className={({ isActive }) =>
+                  `${
+                    isActive ? "bg-red-500 p-5 text-white/75 rounded-md" : "p-5"
+                  }`
+                }
+                to="/"
+              >
                 Home
-              </Link>
-              <Link to="/coffees">
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  `${
+                    isActive ? "bg-red-500 p-5 text-white/75 rounded-md" : "p-5"
+                  }`
+                }
+                to="/coffees"
+              >
                 coffees
-              </Link>
-              <Link to="/dashboard">
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  `${
+                    isActive ? "bg-red-500 p-5 text-white/75 rounded-md" : "p-5"
+                  }`
+                }
+                to="/dashboard"
+              >
                 Dashboard
-              </Link>
-              
+              </NavLink>
             </ul>
           </div>
         </div>

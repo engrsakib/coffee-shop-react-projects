@@ -1,15 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Catagory = ({ catagory }) => {
     // console.log(catagory);
-  return ( 
+  return (
     <>
-      <Link to={`/category/${catagory.category}`} role="tab" className="tab">
+      <NavLink
+        to={`/category/${catagory.category}`}
+        role="tab"
+        className={({ isActive }) => `tab ${isActive ? 'tab-active text-red' :''}`}
+      >
         <span className="text-2xl hover:bg-green-950 hover:text-white p-4 rounded-md">
           {catagory.category}
         </span>
-      </Link>
+      </NavLink>
     </>
   );
 };
