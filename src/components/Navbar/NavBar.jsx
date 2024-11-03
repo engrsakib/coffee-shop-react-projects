@@ -15,7 +15,7 @@ const NavBar = () => {
               <NavLink
                 className={({ isActive }) =>
                   `${
-                    isActive ? "bg-red-500 p-5 text-white/75 rounded-md" : "p-5"
+                    isActive ? "text-red-500 rounded-md" : ""
                   }`
                 }
                 to="/"
@@ -25,7 +25,7 @@ const NavBar = () => {
               <NavLink
                 className={({ isActive }) =>
                   `${
-                    isActive ? "bg-red-500 p-5 text-white/75 rounded-md" : "p-5"
+                    isActive ? "text-red-500 rounded-md" : ""
                   }`
                 }
                 to="/coffees"
@@ -35,7 +35,7 @@ const NavBar = () => {
               <NavLink
                 className={({ isActive }) =>
                   `${
-                    isActive ? "bg-red-500 p-5 text-white/75 rounded-md" : "p-5"
+                    isActive ? "text-red-500 rounded-md" : ""
                   }`
                 }
                 to="/dashboard"
