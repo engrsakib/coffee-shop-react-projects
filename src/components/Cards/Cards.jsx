@@ -2,7 +2,7 @@ import React from 'react';
 import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 const Cards = ({card}) => {
-    const { name, image, category, origin, popularity, rating, type, id} = card || {};
+    const { name, image, category, making_process, description, nutrition_info, ingredients, origin, popularity, rating, type, id} = card || {};
     return (
       <div className="mt-3 bt-3">
         <Link to={`/coffees/${id}`}>
